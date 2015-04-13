@@ -16,7 +16,7 @@
 1.	安装virtualbox
 2.	安装vagrant
 
-##生成虚拟机
+###生成虚拟机
 
 ```shell
 mkdir debian
@@ -29,7 +29,7 @@ vagrant ssh
 
 这个时候已经运行在debian中,已经拥有所有权限.
 
-##更新系统
+###更新系统
 
 ```shell
 apt-get update
@@ -46,5 +46,6 @@ apt-get install virtualenv pip
 
 ```shell
 virtualenv dev
-cd dev; bin/active
+cd dev
+source bin/activate
 ```
